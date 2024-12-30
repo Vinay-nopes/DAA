@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Sector</title>
+    <style>
+        body {
+            background-color: #121212ab; /* Dark background for better contrast */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Consistent font */
+            color: #f0f0f0; /* Light text color */
+            margin: 0;
+            padding: 0;
+        }
+        .heading {
+            display: flex; /* Use flexbox for alignment */
+            justify-content: center; /* Center the buttons horizontally */
+            align-items: center; /* Center the buttons vertically */
+            background-color: #ff4081; /* Bright pink background */
+            box-shadow: 0 4px 15px rgba(251, 255, 0, 0.5);
+            height: 60px;
+            border-bottom: 2px solid #ff80ab; /* Lighter pink border */
+        }
+        .home, .project, .b1, .b2 {
+            margin: 0 10px; /* Add some margin between buttons */
+            color: white;
+            background-color: #6200ea; /* Purple background for buttons */
+            border-radius: 5px;
+            height: 40px;
+            border: none;
+            font-weight: 600;
+            font-size: 1em;
+            cursor: pointer;
+            box-shadow: 0 2px 15px rgba(0, 255, 255, 0.527);
+            transition: all 0.3s ease;
+            padding: 0 15px; /* Add padding for better touch targets */
+        }
+        .home:hover, .project:hover, .b1:hover, .b2:hover {
+            background-color: #3700b3; /* Darker purple on hover */
+            box-shadow: 0 4px 15px rgba(250, 242, 1, 0.5);
+        }
+        .label {
+            margin: 20px;
+            padding: 20px;
+            background-color: #1e1e1e90; /* Darker background for content */
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #ff80ab; /* Light pink for headings */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #bb86fc; /* Light purple for subheadings */
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .heading {
+                flex-direction: column; /* Stack buttons vertically on small screens */
+                height: auto; /* Allow height to adjust */
+                padding: 10px; /* Add padding */
+            }
+            .home, .project, .b1, .b2 {
+                width: 100%; /* Full width buttons */
+                margin: 5px 0; /* Margin for spacing */
+            }
+            h1 {
+                font-size: 2em; /* Smaller heading on mobile */
+            }
+            h2 {
+                font-size: 1.5em; /* Smaller subheading on mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .home, .project, .b1, .b2 {
+                height: 50px; /* Increase button height for easier tapping */
+                font-size: 1.2em; /* Increase font size for readability */
+            }
+            h1 {
+                font-size: 1.8em; /* Further reduce heading size */
+            }
+            h2 {
+                font-size: 1.3em; /* Further reduce subheading size */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading">
+        <a href="index.html">         <button class="home">HOME</button> 
+        </a>
+        <a href="project_intro.html">         <button class="project">PROJECT SUMMARY</button>
+        </a>
+    </div>
+     
+    <div class="label">
+        <h1>EDUCATION SECTOR </h1>
+        <div class="label1">
+            <h2>SDG Target 4.1</h2>
+            <p><strong>Focus:</strong> Ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy.</p>
+            <p><strong>Indicator 4.1.1:</strong> Proportion of youth and adults who have achieved at least a minimum level of proficiency in literacy and numeracy, by gender.</p>
+        
+            <h2>SDG Target 4.4</h2>
+            <p><strong>Focus:</strong> Increase the number of youth and adults who have relevant skills for employment, decent jobs, and entrepreneurship.</p>
+            <p><strong>Indicator 4.4.1:</strong> Proportion of youth and adults with ICT skills, by gender.</p>
+            
+            <h2>
+                <button class="b1">
+                    CLICK TO KNOW MORE
+                </button>
+            </h2>
+
+            <h1>GARBAGE HANDLING</h1>
+             
+            <h2>SDG Target 11.6</h2>
+            <p><strong>Focus:</strong> Reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.</p>
+            <p><strong>Indicator 11.6.1:</strong> Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste, by cities.</p>
+        
+            <h2>SDG Target 12.5</h2>
+            <p><strong>Focus:</strong> Substantially reduce waste generation through prevention, reduction, recycling, and reuse.</p>
+            <p><strong>Indicator 12.5.1:</strong> National recycling rate, tons of material recycled.</p>
+        
+            <h2>SDG Target 13.2</h2>
+            <p><strong>Focus:</strong> Integrate climate change measures into national policies, strategies, and planning.</p>
+            <p><strong>Indicator 13.2.1:</strong> Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience.</p>
+            <h2>
+
+
+
+                <a href="wastemang.html">
+                    <button class="b1">
+                        CLICK TO KNOW MORE
+                    </button>
+                </a>
+                 <a href="detailedpage.html">
+                    <button class="b1">
+                        BACK
+                    </button>
+                 </a>
+
+            </h2>
+
+        </div>
+    </div>
+
+</body>
+</html>
